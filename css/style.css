@@ -6,7 +6,7 @@ body{
 	margin:0;
 	padding:0;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
 	
@@ -137,6 +137,8 @@ Home sections
 
 .bg-gray {
 	background: #f8f8f8;
+    background-image: url(../img/conexion_gris.png);
+
 }
 
 .bg-dark {
@@ -175,8 +177,8 @@ Intro
 #intro{
     height:435px;
     width:100%;
-    background-color: #C66;
-    /*background-image: url(../img/bg-mac.png);*/
+    background-color: #09C;
+    background-image: url(../img/conexion.png);
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
@@ -189,7 +191,7 @@ Intro
 .intro-text {
 	position:relative;
 	width:100%;
-	margin-top:170px;
+	margin-top:50px;
 	z-index:1000;
 }
 #intro .brand {
@@ -555,8 +557,8 @@ more media queries
 
 @media (max-width:768px) {
 	#intro{
-		background-image: url(../img/bg-mac.png);
-		background-size:100%;
+		background-image: url(../img/conexion.png);
+		background-size:150%;
 	}
 	.box-team, .box-team img {
 		text-align: center;
@@ -583,6 +585,7 @@ more media queries
 
 @media (max-width:480px){
 	#intro{
-		background-image: none;
+		background-image: url(../img/conexion.png);
+		background-size:200%;
 	}
 }
